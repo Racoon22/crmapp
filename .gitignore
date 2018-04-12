@@ -31,3 +31,5 @@ tests/_support/_generated
 /web/index.php
 /config/params.php
 /config/db.php
+/config/mail.php
+/config/overrides/local.php
