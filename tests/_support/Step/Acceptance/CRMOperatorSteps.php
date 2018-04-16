@@ -12,6 +12,12 @@ class CRMOperatorSteps extends \AcceptanceTester
         $I->amOnPage('/customers/add');
     }
 
+    function seeFieldName()
+    {
+        $I = $this;
+        $I->see('name');
+    }
+
     public function imagineCustomer()
     {
         $faker = Factory::create();

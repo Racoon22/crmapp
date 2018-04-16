@@ -10,6 +10,6 @@ modules:
     enabled:
         - \Helper\Functional
         - Db:
-            dsn: 'mysql:host=127.0.0.1;dbname=crmapp'
+            dsn: 'mysql:host=127.0.0.1;dbname=cddrmapp'
             user: 'root'
             password: ''

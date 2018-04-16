@@ -7,6 +7,7 @@ $I->wantTo('add two different customers to database');
 
 $I->amInAddCustomerUi();
 $first_customer = $I->imagineCustomer();
+$I->seeFieldName();
 $I->fillCustomerDataForm($first_customer);
 $I->submitCustomerDataForm();
 
